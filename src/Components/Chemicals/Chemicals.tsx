@@ -1,7 +1,9 @@
+import Header from '../Reusable/Header/Header';
+
 function Chemicals() {
   return (
     <>
-      <h1>Chemicals List</h1>
+      <Header>Manage Chemicals</Header>
     </>
   );
 }

@@ -1,7 +1,9 @@
+import Header from '../Reusable/Header/Header';
+
 function WaterTest() {
   return (
     <>
-      <h1>Water Test</h1>
+      <Header color='secondary'>Test Water</Header>
     </>
   );
 }

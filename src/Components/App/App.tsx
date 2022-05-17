@@ -16,13 +16,15 @@ function App() {
     <Router>
       <div className={styles.container}>
         <Nav />
-        <div>
-          <Routes>
-            <Route path='' element={<Home />} />
-            <Route path='test' element={<WaterTest />} />
-            <Route path='chemicals' element={<Chemicals />} />
-            <Route path='profiles' element={<ChemicalProfiles />} />
-          </Routes>
+        <div className={styles.viewContainer}>
+          <div className={styles.widthLimiter}>
+            <Routes>
+              <Route path='' element={<Home />} />
+              <Route path='test' element={<WaterTest />} />
+              <Route path='chemicals' element={<Chemicals />} />
+              <Route path='profiles' element={<ChemicalProfiles />} />
+            </Routes>
+          </div>
         </div>
       </div>
     </Router>

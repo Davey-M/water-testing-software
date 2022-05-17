@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--med);
+
+  padding: var(--large);
+
+  background-color: var(--light);
+}
+
+.link {  
+  text-align: center;
+
+  text-decoration: none;
+  color: var(--dark);
+
+  padding: var(--med);
+  border-radius: var(--border-radius);
+
+  transition: all var(--wait);
+}
+
+.link:hover {
+  background-color: var(--white);
+}

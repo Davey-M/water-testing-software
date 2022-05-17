@@ -5,3 +5,12 @@
   width: 100%;
   min-height: 100vh;
 }
+
+.viewContainer {
+  padding: var(--large);
+}
+
+.widthLimiter {
+  max-width: 900px;
+  margin: auto;
+}

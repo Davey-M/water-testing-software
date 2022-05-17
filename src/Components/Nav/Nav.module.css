@@ -4,23 +4,25 @@
 
   gap: var(--med);
 
-  padding: var(--large);
+  padding: var(--large) 0px var(--large) var(--large);
 
   background-color: var(--light);
 }
 
-.link {  
+.link {
   text-align: center;
 
   text-decoration: none;
   color: var(--dark);
 
-  padding: var(--med);
-  border-radius: var(--border-radius);
+  padding: var(--med) calc(var(--med) + var(--large)) var(--med) var(--med);
 
   transition: all var(--wait);
+
+  border-radius: var(--border-radius) 0px 0px var(--border-radius);
 }
 
-.link:hover {
+.link:hover,
+.link.chosen {
   background-color: var(--white);
 }

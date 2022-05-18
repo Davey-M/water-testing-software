@@ -15,7 +15,8 @@
   text-decoration: none;
   color: var(--dark);
 
-  padding: var(--med) calc(var(--med) + var(--large)) var(--med) var(--med);
+  padding: var(--large);
+  padding-right: calc(var(--large) * 2);
 
   transition: all var(--wait);
 

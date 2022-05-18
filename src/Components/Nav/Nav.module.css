@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--med);
+
+  padding: var(--large) 0px var(--large) var(--large);
+
+  background-color: var(--light);
+}
+
+.link {
+  text-align: center;
+
+  text-decoration: none;
+  color: var(--dark);
+
+  padding: var(--large);
+  padding-right: calc(var(--large) * 2);
+
+  transition: all var(--wait);
+
+  border-radius: var(--border-radius) 0px 0px var(--border-radius);
+}
+
+.link:hover,
+.link.chosen {
+  background-color: var(--white);
+}

@@ -1,7 +1,9 @@
+import Header from '../Reusable/Header/Header';
+
 function ChemicalProfiles() {
   return (
     <>
-      <h1>Chemical Profiles</h1>
+      <Header color='secondary'>Manage Chemical Profiles</Header>
     </>
   );
 }
